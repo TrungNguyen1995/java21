@@ -1,0 +1,45 @@
+
+.post-list{
+    display: flex;
+    width: 1290px;
+    margin-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:30px
+}
+.post{
+    border: solid;
+    width: 300px;
+    border-radius: 10px 10px 12px 12px;
+}
+.post-thumbail{
+    max-width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: none;
+    vertical-align: middle;
+}
+.title{
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.content{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+.meta{
+    border:solid;
+    border-width: medium;
+    border-radius: 12px 12px 12px 12px;
+    margin: 10px 20px 30px 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}

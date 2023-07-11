@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    position: relative;
+    display: inline-block;
+    padding: 16px 24px;
+    background-color: blue;
+    cursor: pointer;
+    color: #fff;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+nav ul li:hover ul{
+    display: block;
+}

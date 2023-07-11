@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.list{
+    display: flex;
+}
+.list__item{
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    margin-bottom: 20px;
+}
+.searh{
+    display: flex;
+}
+button{
+    padding: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+}

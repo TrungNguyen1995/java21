@@ -1,0 +1,30 @@
+.post{  
+    width: 500px;  
+    border: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    box-shadow: 0px;
+}
+.post-thumbail{
+    max-width: 100%;
+    vertical-align: middle;
+    box-shadow: none
+}
+.post-title{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center
+}
+.post-excecpt{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center
+}
+.post-meta{
+    padding: 5px;
+    border-top: double;
+}
+.post-pbulicshow{
+    float: right;
+}

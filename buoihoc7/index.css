@@ -1,0 +1,60 @@
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    transform: rotate(-45deg);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    animation: heartbeat 1.5s infinite 0s;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: 50%;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+}
+/* @keyframes spin {
+    0%{
+        transform: translate(100px, 100px) rotate(0deg);
+    }
+    100%{
+        transform:translate(100px, 100px) rotate(360deg);
+    }
+} */
+/* .box{
+  animation: spin 1s linear 0s;
+} */
+@keyframes heartbeat {
+    0% {
+      transform: rotate(-45deg) scale(0.8);
+    }
+    5% {
+      transform: rotate(-45deg) scale(0.9);
+    }
+    10% {
+      transform: rotate(-45deg) scale(0.8);
+    }
+    15% {
+      transform: rotate(-45deg) scale(1);
+    }
+    50% {
+      transform: rotate(-45deg) scale(0.8);
+    }
+    100% {
+      transform: rotate(-45deg) scale(0.8);
+    }
+  }

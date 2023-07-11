@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+h1,h2,p {
+    margin-top: 0;
+}
+#top { 
+    background: wheat;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.wrapper{
+    position: relative;
+}
+#bottom{
+    text-align: center;
+    background-color: aquamarine;
+    font-weight: 700;
+    list-style: 30px;
+    margin-top: 30px;
+}
+#main{
+    padding: 0 320px 0 20px;
+    line-height: 25px;
+}
+#main h1 #main h2{
+    margin: 10px 0 15px;
+}
+#sidebar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 270px;
+    font-size: 14px;
+    border: 2px solid grey;
+    padding: 0 0 20px 20px ;
+}
+#sidebar img {
+    max-width: 100%;
+    margin-top: 20px
+}

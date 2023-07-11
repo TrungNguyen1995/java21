@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: calc(273px + 263px + 243px + 264px);
+    background-color: black;
+    display: flex;
+}
+.title{
+    color: #ff9601;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    font-size: 300;
+}
+.post-thumbail{
+    border: 2px solid;
+    background-size: 100;
+    max-width: 100%;
+}
+.content{
+    width: calc(273px + 263px + 243px + 264px);
+    text-align: center;
+    background-color: rgb(68, 64, 64);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px;
+    justify-content: space-between;
+    margin: 0 10px 0 15px;
+}
